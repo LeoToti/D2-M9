@@ -1,0 +1,55 @@
+.jumbotron{
+    background-image:url("https://images.unsplash.com/photo-1617184003107-0df15fea4903?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80");
+    color: white;
+    padding: 10px;
+    height: 400px;
+}
+
+.cards {
+    margin-top: 10px;
+    position: relative;
+}
+
+.genere {
+    position: absolute;
+    z-index: 1;
+    color: #ffc107;
+    background-color: brown;
+
+}
+
+.disappear::after{
+    content: icon;
+    position: absolute;
+    z-index: 1;
+}
+
+.delete-button {
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    padding-bottom: 2px;
+    margin-bottom: 12px;
+    transform: translateY(-10%);
+   
+}
+
+table {
+    position: relative;
+}
+
+.d-none {
+    display: none;
+}
+
+body {
+    
+}
+
+#trans {
+    transition: width 5s 5s;
+}
+
+#trans:hover{
+    width:500px
+}
